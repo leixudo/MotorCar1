@@ -4,14 +4,14 @@
    MotorCar类构造函数
    函数功能：定义用于控制电机的引脚
    入口参数：_spa,表示控制前进后退的引脚A
-             _spb.表示控制前进后退的引脚B 
+             _spb.表示控制前进后退的引脚B
              _apa,表示控制转向的引脚A
              _apb,表示控制转向的引脚B
 
     created  2018.8.26
-    by xulei 
- ***************************************************/
- MotorCar::MotorCar(int _spa, int _spb, int _apa, int _apb)
+    by xulei
+***************************************************/
+void MotorCar::MotorCar(int _spa, int _spb, int _apa, int _apb)
 {
      _speedPinA=_spa;
      _speedPinB=_spb;
